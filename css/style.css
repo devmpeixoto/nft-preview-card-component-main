@@ -122,20 +122,16 @@ a:hover{
   cursor: pointer;
 }
 
-.top::after{
-  content: url('/images/icon-view.svg');
+.top:hover::after{
   background-color: #57fdd950;
   position: absolute;
   inset: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  opacity: 0;
   transition: all .2s ease;
-}
-
-.top:hover::after{
   opacity: 1;
+  content: url('/images/icon-view.svg');
 }
 
 .bottom{
