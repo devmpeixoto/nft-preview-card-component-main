@@ -216,13 +216,14 @@ a:hover{
 @media screen and (max-width: 455px){
   .border1, .border2, .card{
     width: 100%;
+    height: 100%;
   }  
 
   .card{
     margin: 1rem;
   }
 
-  .top > img{
+  .img{
     min-width: 100%;
   }
 
